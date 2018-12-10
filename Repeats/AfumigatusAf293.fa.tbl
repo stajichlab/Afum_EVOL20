@@ -1,0 +1,59 @@
+==================================================
+file name: AfumigatusAf293.fa       
+sequences:             9
+total length:   29420142 bp  (28841733 bp excl N/X-runs)
+GC level:         49.77 %
+bases masked:     979937 bp ( 3.33 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements          380       569242 bp    1.93 %
+   SINEs:                4          489 bp    0.00 %
+   Penelope              1           48 bp    0.00 %
+   LINEs:               70       154152 bp    0.52 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       2          272 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:       306       414601 bp    1.41 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia          88        52695 bp    0.18 %
+     Gypsy/DIRS1       217       361822 bp    1.23 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons        244       204476 bp    0.70 %
+   hobo-Activator        6         2351 bp    0.01 %
+   Tc1-IS630-Pogo      219       200846 bp    0.68 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger     6          439 bp    0.00 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:           10         5629 bp    0.02 %
+
+Total interspersed repeats:      779347 bp    2.65 %
+
+
+Small RNA:              54        14479 bp    0.05 %
+
+Satellites:              4          343 bp    0.00 %
+Simple repeats:       3696       157343 bp    0.53 %
+Low complexity:        567        28463 bp    0.10 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be fungi         
+RepeatMasker version open-4.0.5 , sensitive mode
+                                 
+run with rmblastn version 2.2.27+
+RepBase Update 20150807, RM database version 20150807
