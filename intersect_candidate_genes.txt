@@ -1,0 +1,6 @@
+Chr5_A_fumigatus_Af293	2132142	2132142	Chr5_A_fumigatus_Af293	EuPathDB	exon	2131950	2134138	.	-	.	gene_id "Afu5g08390-T"; transcript_id "Afu5g08390-T";	0
+Chr5_A_fumigatus_Af293	2132142	2132142	Chr5_A_fumigatus_Af293	EuPathDB	CDS	2131950	2133522	.	-	0	gene_id "Afu5g08390-T"; transcript_id "Afu5g08390-T";	0
+Chr5_A_fumigatus_Af293	3603366	3603366	Chr5_A_fumigatus_Af293	EuPathDB	exon	3603261	3603725	.	-	.	gene_id "Afu5g13710-T"; transcript_id "Afu5g13710-T";	0
+Chr5_A_fumigatus_Af293	3603366	3603366	Chr5_A_fumigatus_Af293	EuPathDB	CDS	3603261	3603403	.	-	0	gene_id "Afu5g13710-T"; transcript_id "Afu5g13710-T";	0
+Chr5_A_fumigatus_Af293	3852237	3852237	Chr5_A_fumigatus_Af293	EuPathDB	exon	3852153	3852983	.	+	.	gene_id "Afu5g14900-T"; transcript_id "Afu5g14900-T";	0
+Chr5_A_fumigatus_Af293	3852237	3852237	Chr5_A_fumigatus_Af293	EuPathDB	CDS	3852153	3852415	.	+	2	gene_id "Afu5g14900-T"; transcript_id "Afu5g14900-T";	0
