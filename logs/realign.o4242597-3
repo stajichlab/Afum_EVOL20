@@ -1,0 +1,78 @@
+c47
+SAMPLE=EVOL20_3_1.PE
+here
+here
+INFO  13:31:49,512 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:31:49,516 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.6-0-g89b7209, Compiled 2016/06/01 22:27:29 
+INFO  13:31:49,517 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  13:31:49,517 HelpFormatter - For support and documentation go to https://www.broadinstitute.org/gatk 
+INFO  13:31:49,517 HelpFormatter - [Wed Oct 26 13:31:49 PDT 2016] Executing on Linux 3.10.0-229.1.2.el7.x86_64 amd64 
+INFO  13:31:49,518 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17 JdkDeflater 
+INFO  13:31:49,523 HelpFormatter - Program Args: -T RealignerTargetCreator -R index/A_fumigatus_Af293.fasta -I aln/EVOL20_3_1.PE.DD.bam -o aln/EVOL20_3_1.PE.intervals 
+INFO  13:31:49,531 HelpFormatter - Executing as jstajich@c47 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17. 
+INFO  13:31:49,532 HelpFormatter - Date/Time: 2016/10/26 13:31:49 
+INFO  13:31:49,532 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:31:49,533 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:31:49,540 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  13:31:49,661 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  13:31:49,668 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  13:31:49,693 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.02 
+INFO  13:31:49,813 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  13:31:49,882 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  13:31:49,882 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  13:31:49,883 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  13:31:49,883 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  13:32:19,888 ProgressMeter - Chr3_A_fumigatus_Af293:1772673   1.1532823E7    30.0 s       2.0 s       39.2%    76.0 s      46.0 s 
+INFO  13:32:49,890 ProgressMeter - Chr7_A_fumigatus_Af293:844285   2.6332503E7    60.0 s       2.0 s       89.5%    67.0 s       7.0 s 
+INFO  13:33:00,572 ProgressMeter -            done   2.9420142E7    70.0 s       2.0 s      100.0%    70.0 s       0.0 s 
+INFO  13:33:00,574 ProgressMeter - Total runtime 70.69 secs, 1.18 min, 0.02 hours 
+INFO  13:33:00,580 MicroScheduler - 129791 reads were filtered out during the traversal out of approximately 2692377 total reads (4.82%) 
+INFO  13:33:00,581 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  13:33:00,581 MicroScheduler -   -> 35030 reads (1.30% of total) failing BadMateFilter 
+INFO  13:33:00,582 MicroScheduler -   -> 12503 reads (0.46% of total) failing DuplicateReadFilter 
+INFO  13:33:00,582 MicroScheduler -   -> 0 reads (0.00% of total) failing FailsVendorQualityCheckFilter 
+INFO  13:33:00,582 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+INFO  13:33:00,583 MicroScheduler -   -> 0 reads (0.00% of total) failing MappingQualityUnavailableFilter 
+INFO  13:33:00,587 MicroScheduler -   -> 82258 reads (3.06% of total) failing MappingQualityZeroFilter 
+INFO  13:33:00,588 MicroScheduler -   -> 0 reads (0.00% of total) failing NotPrimaryAlignmentFilter 
+INFO  13:33:00,588 MicroScheduler -   -> 0 reads (0.00% of total) failing Platform454Filter 
+INFO  13:33:00,589 MicroScheduler -   -> 0 reads (0.00% of total) failing UnmappedReadFilter 
+------------------------------------------------------------------------------------------
+Done. There were no warn messages.
+------------------------------------------------------------------------------------------
+here
+INFO  13:33:05,895 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:33:05,906 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.6-0-g89b7209, Compiled 2016/06/01 22:27:29 
+INFO  13:33:05,907 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  13:33:05,907 HelpFormatter - For support and documentation go to https://www.broadinstitute.org/gatk 
+INFO  13:33:05,908 HelpFormatter - [Wed Oct 26 13:33:05 PDT 2016] Executing on Linux 3.10.0-229.1.2.el7.x86_64 amd64 
+INFO  13:33:05,908 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17 JdkDeflater 
+INFO  13:33:05,915 HelpFormatter - Program Args: -T IndelRealigner -R index/A_fumigatus_Af293.fasta -I aln/EVOL20_3_1.PE.DD.bam -targetIntervals aln/EVOL20_3_1.PE.intervals -o aln/EVOL20_3_1.PE.realign.bam 
+INFO  13:33:05,927 HelpFormatter - Executing as jstajich@c47 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17. 
+INFO  13:33:05,928 HelpFormatter - Date/Time: 2016/10/26 13:33:05 
+INFO  13:33:05,928 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:33:05,929 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:33:06,081 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  13:33:06,213 GenomeAnalysisEngine - Downsampling Settings: No downsampling 
+INFO  13:33:06,226 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  13:33:06,260 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  13:33:06,468 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  13:33:06,476 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  13:33:06,477 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  13:33:06,478 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  13:33:06,478 ProgressMeter -        Location |     reads | elapsed |     reads | completed | runtime |   runtime 
+INFO  13:33:06,604 ReadShardBalancer$1 - Loading BAM index data 
+INFO  13:33:06,606 ReadShardBalancer$1 - Done loading BAM index data 
+DEBUG	2016-10-26 13:33:09	BlockCompressedOutputStream	Using deflater: Deflater
+INFO  13:33:36,508 ProgressMeter - Chr2_A_fumigatus_Af293:4468911    709144.0    30.0 s      42.0 s       31.9%    94.0 s      64.0 s 
+INFO  13:34:06,513 ProgressMeter - Chr5_A_fumigatus_Af293:3026959   1699679.0    60.0 s      35.0 s       70.7%    84.0 s      24.0 s 
+INFO  13:34:36,519 ProgressMeter - mito_A_fumigatus_Af293:14225   2559332.0    90.0 s      35.0 s       99.9%    90.0 s       0.0 s 
+INFO  13:34:45,648 ProgressMeter -            done   2855994.0    99.0 s      34.0 s      100.0%    99.0 s       0.0 s 
+INFO  13:34:45,651 ProgressMeter - Total runtime 99.17 secs, 1.65 min, 0.03 hours 
+INFO  13:34:45,700 MicroScheduler - 0 reads were filtered out during the traversal out of approximately 2855994 total reads (0.00%) 
+INFO  13:34:45,702 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  13:34:45,703 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+------------------------------------------------------------------------------------------
+Done. There were no warn messages.
+------------------------------------------------------------------------------------------
+done

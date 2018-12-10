@@ -1,0 +1,10 @@
+EVOL20_3_1 EVOL20_3 flowcell548_lane1_pair1_GTGAAA.fastq.gz flowcell548_lane1_pair2_GTGAAA.fastq.gz GTGAAA "EVOL20_3"
+OUTFILE is aln/EVOL20_3_1.PE.unsrt.sam
+[Wed Oct 26 13:14:02 PDT 2016] picard.sam.AddOrReplaceReadGroups INPUT=aln/EVOL20_3_1.PE.unsrt.sam OUTPUT=aln/EVOL20_3_1.PE.bam SORT_ORDER=coordinate RGID=EVOL20_3_1 RGLB=flowcell548 RGPL=illumina RGPU=GTGAAA RGSM=EVOL20_3    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Oct 26 13:14:02 PDT 2016] Executing as jstajich@m02 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17; Picard version: 2.6.0-SNAPSHOT
+INFO	2016-10-26 13:14:03	AddOrReplaceReadGroups	Created read group ID=EVOL20_3_1 PL=illumina LB=flowcell548 SM=EVOL20_3
+
+INFO	2016-10-26 13:14:14	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:   11s.  Last read position: Chr1_A_fumigatus_Af293:2,545,406
+INFO	2016-10-26 13:14:29	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:   14s.  Last read position: Chr1_A_fumigatus_Af293:2,721,328
+[Wed Oct 26 13:15:29 PDT 2016] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 1.44 minutes.
+Runtime.totalMemory()=6244270080

@@ -1,0 +1,60 @@
+c44
+SAMPLE=EVOL20_3_1.PE
+INFO  13:41:14,805 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:41:14,811 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.6-0-g89b7209, Compiled 2016/06/01 22:27:29 
+INFO  13:41:14,811 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  13:41:14,812 HelpFormatter - For support and documentation go to https://www.broadinstitute.org/gatk 
+INFO  13:41:14,812 HelpFormatter - [Wed Oct 26 13:41:14 PDT 2016] Executing on Linux 3.10.0-229.1.2.el7.x86_64 amd64 
+INFO  13:41:14,813 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17 JdkDeflater 
+INFO  13:41:14,820 HelpFormatter - Program Args: -T HaplotypeCaller -ERC GVCF -stand_emit_conf 10 -stand_call_conf 30 -ploidy 1 -I aln/EVOL20_3_1.PE.realign.bam -R index/A_fumigatus_Af293.fasta -o Variants/EVOL20_3_1.PE.g.vcf -nct 16 
+INFO  13:41:14,833 HelpFormatter - Executing as jstajich@c44 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17. 
+INFO  13:41:14,834 HelpFormatter - Date/Time: 2016/10/26 13:41:14 
+INFO  13:41:14,835 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:41:14,835 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:41:14,906 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  13:41:15,091 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 500 
+INFO  13:41:15,104 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  13:41:15,203 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.10 
+INFO  13:41:15,234 HCMappingQualityFilter - Filtering out reads with MAPQ < 20 
+INFO  13:41:15,263 MicroScheduler - Running the GATK in parallel mode with 16 total threads, 16 CPU thread(s) for each of 1 data thread(s), of 64 processors available on this machine 
+INFO  13:41:15,423 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  13:41:15,515 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  13:41:15,516 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  13:41:15,517 ProgressMeter -                 |      processed |    time |         per 1M |           |   total | remaining 
+INFO  13:41:15,518 ProgressMeter -        Location | active regions | elapsed | active regions | completed | runtime |   runtime 
+INFO  13:41:15,518 HaplotypeCaller - Currently, physical phasing is not available when ploidy is different than 2; therefore it won't be performed 
+INFO  13:41:15,519 HaplotypeCaller - Standard Emitting and Calling confidence set to 0.0 for reference-model confidence output 
+INFO  13:41:15,519 HaplotypeCaller - All sites annotated with PLs forced to true for reference-model confidence output 
+WARN  13:41:15,600 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+INFO  13:41:15,744 HaplotypeCaller - Using global mismapping rate of 45 => -4.5 in log10 likelihood units 
+INFO  13:41:15,746 PairHMM - Performance profiling for PairHMM is disabled because the program is being run with multiple threads (-nct>1) option
+Profiling is enabled only when running in single thread mode
+ 
+Using AVX accelerated implementation of PairHMM
+INFO  13:41:18,867 VectorLoglessPairHMM - libVectorLoglessPairHMM unpacked successfully from GATK jar file 
+INFO  13:41:18,869 VectorLoglessPairHMM - Using vectorized implementation of PairHMM 
+WARN  13:41:19,239 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper 
+INFO  13:41:45,523 ProgressMeter - Chr1_A_fumigatus_Af293:4124085              0.0    30.0 s           49.6 w       14.0%     3.6 m       3.1 m 
+INFO  13:42:15,528 ProgressMeter - Chr2_A_fumigatus_Af293:4786283        4918979.0    60.0 s           12.0 s       33.0%     3.0 m       2.0 m 
+INFO  13:42:45,531 ProgressMeter - Chr4_A_fumigatus_Af293:1878759      1.3842518E7    90.0 s            6.0 s       53.4%     2.8 m      78.0 s 
+INFO  13:43:15,541 ProgressMeter - Chr5_A_fumigatus_Af293:3793987      1.7769742E7   120.0 s            6.0 s       73.3%     2.7 m      43.0 s 
+INFO  13:43:45,543 ProgressMeter - Chr8_A_fumigatus_Af293:300316      2.7555253E7     2.5 m            5.0 s       94.7%     2.6 m       8.0 s 
+INFO  13:44:15,548 ProgressMeter - mito_A_fumigatus_Af293:31765      2.9388377E7     3.0 m            6.0 s      100.0%     3.0 m       0.0 s 
+INFO  13:44:45,552 ProgressMeter - mito_A_fumigatus_Af293:31765      2.9388377E7     3.5 m            7.0 s      100.0%     3.5 m       0.0 s 
+INFO  13:45:08,200 HaplotypeCaller - Ran local assembly on 111321 active regions 
+INFO  13:45:08,224 ProgressMeter -            done      2.9420142E7     3.9 m            7.0 s      100.0%     3.9 m       0.0 s 
+INFO  13:45:08,224 ProgressMeter - Total runtime 232.71 secs, 3.88 min, 0.06 hours 
+INFO  13:45:08,225 MicroScheduler - 101981 reads were filtered out during the traversal out of approximately 2680682 total reads (3.80%) 
+INFO  13:45:08,225 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  13:45:08,226 MicroScheduler -   -> 12395 reads (0.46% of total) failing DuplicateReadFilter 
+INFO  13:45:08,226 MicroScheduler -   -> 0 reads (0.00% of total) failing FailsVendorQualityCheckFilter 
+INFO  13:45:08,226 MicroScheduler -   -> 89586 reads (3.34% of total) failing HCMappingQualityFilter 
+INFO  13:45:08,227 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+INFO  13:45:08,227 MicroScheduler -   -> 0 reads (0.00% of total) failing MappingQualityUnavailableFilter 
+INFO  13:45:08,227 MicroScheduler -   -> 0 reads (0.00% of total) failing NotPrimaryAlignmentFilter 
+INFO  13:45:08,228 MicroScheduler -   -> 0 reads (0.00% of total) failing UnmappedReadFilter 
+------------------------------------------------------------------------------------------
+Done. There were 2 WARN messages, the first 2 are repeated below.
+WARN  13:41:15,600 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  13:41:19,239 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper 
+------------------------------------------------------------------------------------------

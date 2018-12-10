@@ -1,0 +1,110 @@
+c48
+SAMPLE=WT_Af293_1.PE
+[Wed Oct 26 13:29:06 PDT 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[aln/WT_Af293_1.PE.RG.bam] OUTPUT=aln/WT_Af293_1.PE.DD.bam METRICS_FILE=WT_Af293_1.PE.dedup.metrics VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag REMOVE_DUPLICATES=false ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Oct 26 13:29:06 PDT 2016] Executing as jstajich@c48 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17; Picard version: 2.6.0-SNAPSHOT
+INFO	2016-10-26 13:29:06	MarkDuplicates	Start of doWork freeMemory: 2042776920; totalMemory: 2058354688; maxMemory: 28631367680
+INFO	2016-10-26 13:29:06	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-10-26 13:29:06	MarkDuplicates	Will retain up to 110120644 data points before spilling to disk.
+INFO	2016-10-26 13:29:22	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:   15s.  Last read position: Chr2_A_fumigatus_Af293:353,037
+INFO	2016-10-26 13:29:22	MarkDuplicates	Tracking 9126 as yet unmatched pairs. 1582 records in RAM.
+INFO	2016-10-26 13:29:32	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    9s.  Last read position: Chr3_A_fumigatus_Af293:726,100
+INFO	2016-10-26 13:29:32	MarkDuplicates	Tracking 14745 as yet unmatched pairs. 2596 records in RAM.
+INFO	2016-10-26 13:29:40	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:    7s.  Last read position: Chr4_A_fumigatus_Af293:1,754,341
+INFO	2016-10-26 13:29:40	MarkDuplicates	Tracking 16161 as yet unmatched pairs. 2253 records in RAM.
+INFO	2016-10-26 13:29:50	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    9s.  Last read position: Chr5_A_fumigatus_Af293:3,151,003
+INFO	2016-10-26 13:29:50	MarkDuplicates	Tracking 13839 as yet unmatched pairs. 1172 records in RAM.
+INFO	2016-10-26 13:30:00	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:54s.  Time for last 1,000,000:   10s.  Last read position: Chr7_A_fumigatus_Af293:671,433
+INFO	2016-10-26 13:30:00	MarkDuplicates	Tracking 7894 as yet unmatched pairs. 2622 records in RAM.
+INFO	2016-10-26 13:30:05	MarkDuplicates	Read 5866955 records. 0 pairs never matched.
+INFO	2016-10-26 13:30:13	MarkDuplicates	After buildSortedReadEndLists freeMemory: 4486746504; totalMemory: 6072827904; maxMemory: 28631367680
+INFO	2016-10-26 13:30:13	MarkDuplicates	Will retain up to 894730240 duplicate indices before spilling to disk.
+INFO	2016-10-26 13:30:15	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-10-26 13:30:16	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-10-26 13:30:18	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-10-26 13:30:20	MarkDuplicates	After generateDuplicateIndexes freeMemory: 5772693464; totalMemory: 13005488128; maxMemory: 28631367680
+INFO	2016-10-26 13:30:20	MarkDuplicates	Marking 12871 records as duplicates.
+INFO	2016-10-26 13:30:20	MarkDuplicates	Found 333 optical duplicate clusters.
+INFO	2016-10-26 13:30:20	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2016-10-26 13:31:54	MarkDuplicates	Before output close freeMemory: 14358064360; totalMemory: 14461960192; maxMemory: 28631367680
+INFO	2016-10-26 13:31:54	MarkDuplicates	After output close freeMemory: 14687838520; totalMemory: 14791737344; maxMemory: 28631367680
+[Wed Oct 26 13:31:54 PDT 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 2.80 minutes.
+Runtime.totalMemory()=14791737344
+here
+here
+INFO  13:31:58,346 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:31:58,349 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.6-0-g89b7209, Compiled 2016/06/01 22:27:29 
+INFO  13:31:58,350 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  13:31:58,350 HelpFormatter - For support and documentation go to https://www.broadinstitute.org/gatk 
+INFO  13:31:58,351 HelpFormatter - [Wed Oct 26 13:31:58 PDT 2016] Executing on Linux 3.10.0-229.1.2.el7.x86_64 amd64 
+INFO  13:31:58,351 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17 JdkDeflater 
+INFO  13:31:58,357 HelpFormatter - Program Args: -T RealignerTargetCreator -R index/A_fumigatus_Af293.fasta -I aln/WT_Af293_1.PE.DD.bam -o aln/WT_Af293_1.PE.intervals 
+INFO  13:31:58,375 HelpFormatter - Executing as jstajich@c48 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17. 
+INFO  13:31:58,376 HelpFormatter - Date/Time: 2016/10/26 13:31:58 
+INFO  13:31:58,377 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:31:58,378 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:31:58,394 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  13:31:58,586 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  13:31:58,595 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  13:31:58,624 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  13:31:58,805 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  13:31:58,889 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  13:31:58,890 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  13:31:58,891 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  13:31:58,891 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  13:32:28,898 ProgressMeter - Chr2_A_fumigatus_Af293:1767389   6672067.0    30.0 s       4.0 s       22.7%     2.2 m     102.0 s 
+INFO  13:32:58,902 ProgressMeter - Chr4_A_fumigatus_Af293:164641   1.4006358E7    60.0 s       4.0 s       47.6%     2.1 m      66.0 s 
+INFO  13:33:28,905 ProgressMeter - Chr6_A_fumigatus_Af293:426985   2.2144167E7    90.0 s       4.0 s       75.3%   119.0 s      29.0 s 
+INFO  13:33:58,910 ProgressMeter - mito_A_fumigatus_Af293:22885   2.9404761E7   120.0 s       4.0 s      100.0%   120.0 s       0.0 s 
+INFO  13:33:59,949 ProgressMeter -            done   2.9420142E7     2.0 m       4.0 s      100.0%     2.0 m       0.0 s 
+INFO  13:33:59,950 ProgressMeter - Total runtime 121.06 secs, 2.02 min, 0.03 hours 
+INFO  13:33:59,950 MicroScheduler - 208438 reads were filtered out during the traversal out of approximately 5893420 total reads (3.54%) 
+INFO  13:33:59,951 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  13:33:59,951 MicroScheduler -   -> 53174 reads (0.90% of total) failing BadMateFilter 
+INFO  13:33:59,952 MicroScheduler -   -> 12089 reads (0.21% of total) failing DuplicateReadFilter 
+INFO  13:33:59,952 MicroScheduler -   -> 0 reads (0.00% of total) failing FailsVendorQualityCheckFilter 
+INFO  13:33:59,952 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+INFO  13:33:59,952 MicroScheduler -   -> 0 reads (0.00% of total) failing MappingQualityUnavailableFilter 
+INFO  13:33:59,953 MicroScheduler -   -> 143175 reads (2.43% of total) failing MappingQualityZeroFilter 
+INFO  13:33:59,953 MicroScheduler -   -> 0 reads (0.00% of total) failing NotPrimaryAlignmentFilter 
+INFO  13:33:59,953 MicroScheduler -   -> 0 reads (0.00% of total) failing Platform454Filter 
+INFO  13:33:59,954 MicroScheduler -   -> 0 reads (0.00% of total) failing UnmappedReadFilter 
+------------------------------------------------------------------------------------------
+Done. There were no warn messages.
+------------------------------------------------------------------------------------------
+here
+INFO  13:34:05,608 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:34:05,613 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.6-0-g89b7209, Compiled 2016/06/01 22:27:29 
+INFO  13:34:05,614 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  13:34:05,614 HelpFormatter - For support and documentation go to https://www.broadinstitute.org/gatk 
+INFO  13:34:05,614 HelpFormatter - [Wed Oct 26 13:34:05 PDT 2016] Executing on Linux 3.10.0-229.1.2.el7.x86_64 amd64 
+INFO  13:34:05,615 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17 JdkDeflater 
+INFO  13:34:05,620 HelpFormatter - Program Args: -T IndelRealigner -R index/A_fumigatus_Af293.fasta -I aln/WT_Af293_1.PE.DD.bam -targetIntervals aln/WT_Af293_1.PE.intervals -o aln/WT_Af293_1.PE.realign.bam 
+INFO  13:34:05,639 HelpFormatter - Executing as jstajich@c48 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17. 
+INFO  13:34:05,640 HelpFormatter - Date/Time: 2016/10/26 13:34:05 
+INFO  13:34:05,641 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:34:05,642 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  13:34:05,774 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  13:34:05,898 GenomeAnalysisEngine - Downsampling Settings: No downsampling 
+INFO  13:34:05,914 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  13:34:05,967 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.05 
+INFO  13:34:06,135 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  13:34:06,142 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  13:34:06,143 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  13:34:06,144 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  13:34:06,145 ProgressMeter -        Location |     reads | elapsed |     reads | completed | runtime |   runtime 
+INFO  13:34:06,225 ReadShardBalancer$1 - Loading BAM index data 
+INFO  13:34:06,229 ReadShardBalancer$1 - Done loading BAM index data 
+DEBUG	2016-10-26 13:34:08	BlockCompressedOutputStream	Using deflater: Deflater
+INFO  13:34:36,151 ProgressMeter - Chr2_A_fumigatus_Af293:1759813   1234115.0    30.0 s      24.0 s       22.7%     2.2 m     102.0 s 
+INFO  13:35:06,158 ProgressMeter - Chr4_A_fumigatus_Af293:743302   2744597.0    60.0 s      21.0 s       49.6%     2.0 m      61.0 s 
+INFO  13:35:36,160 ProgressMeter - Chr6_A_fumigatus_Af293:1267516   4350727.0    90.0 s      20.0 s       78.1%   115.0 s      25.0 s 
+INFO  13:36:06,164 ProgressMeter - mito_A_fumigatus_Af293:21266   5705220.0   120.0 s      21.0 s      100.0%   120.0 s       0.0 s 
+INFO  13:36:12,526 ProgressMeter -            done   6076007.0     2.1 m      20.0 s      100.0%     2.1 m       0.0 s 
+INFO  13:36:12,527 ProgressMeter - Total runtime 126.38 secs, 2.11 min, 0.04 hours 
+INFO  13:36:12,532 MicroScheduler - 0 reads were filtered out during the traversal out of approximately 6076007 total reads (0.00%) 
+INFO  13:36:12,533 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  13:36:12,533 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+------------------------------------------------------------------------------------------
+Done. There were no warn messages.
+------------------------------------------------------------------------------------------
+done
