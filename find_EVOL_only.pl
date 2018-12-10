@@ -1,5 +1,9 @@
+#!/usr/bin/perl
+#
 use strict;
 use warnings;
+# This script expects the A_fumigiatus_Af293.EVOL_vs_WT.tab from vcftotab 
+
 my $hdr = <>;
 print $hdr;
 while(<>) {
