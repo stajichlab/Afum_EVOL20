@@ -8,5 +8,7 @@ Versions of software:
  - [GATK](https://software.broadinstitute.org/gatk/) (v3.6-0-g89b7209) 
  - [Picard Tools](https://broadinstitute.github.io/picard/) (v2.6.0)
  - [BWA](https://github.com/lh3/bwa) (v0.7.12)
+ - [VCFTools](http://vcftools.sourceforge.net/) (v0.1.13)
+ - [BEDTools](https://bedtools.readthedocs.io/) (v2.26.0)
  
 Jason Stajich - http://lab.stajich.org
